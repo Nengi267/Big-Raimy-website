@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Raimy's World</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1e1e1e;
+            color: #f4f4f4;
+        }
+        header {
+            background-color: #292b2c;
+            color: #f4f4f4;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        main {
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h2 {
+            color: #ff6347;
+        }
+        footer {
+            background-color: #292b2c;
+            color: #f4f4f4;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .card {
+            background-color: #333;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 1rem;
+            margin: 1rem 0;
+            width: 80%;
+        }
+        .card h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Big Raimy's World!</h1>
+    </header>
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <p>Hey, I’m Big Raimy! I have a knack for staying calm in hard times and a deep love for music. If you want to know more about me, stay tuned!</p>
+        </section>
+        <section class="card">
+            <h2>My Projects</h2>
+            <h3>Project 1: Data Analysis with Python</h3>
+            <p>Diving into the depths of data with Python. Check out my latest insights and visualizations.</p>
+            <h3>Project 2: Creating Cool Games</h3>
+            <p>From simple guess-the-number games to more complex creations, I’m on a mission to learn and entertain.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Big Raimy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
